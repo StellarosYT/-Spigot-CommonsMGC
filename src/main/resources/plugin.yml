@@ -1,0 +1,80 @@
+name: CommonsMGC
+version: '${project.version}'
+main: net.mythigame.commonsMGC.CommonsMGC
+api-version: 1.17
+authors: [ Stellaros ]
+description: CommonsMGC
+website: https://www.mythigame.net
+commands:
+  ban:
+    description: Vous permet de bannir un joueur.
+  case:
+    description: Vous d'obtenir le casier d'un joueur.
+  kick:
+    description: Vous permet d'expulser un joueur.
+  mod:
+    description: Vous permet de passer en mode modération.
+  mute:
+    description: Vous permet de mute un joueur.
+  report:
+    description: Vous permet de signaler un joueur.
+  unban:
+    description: Vous permet de débannir un joueur.
+  unmute:
+    description: Vous permet de démute un joueur.
+  warn:
+    description: Vous permet d'avertir un joueur.
+  whois:
+    description: Vous permet d'obtenir des informations sur le joueur.
+  vanish:
+    description: Vous permet de vous rendre invisible
+    aliases:
+      - v
+    usage: /vanish [(<player>)]
+  god:
+    description: Vous permet de vous rendre invincible
+    usage: /god [(<player>)]
+  gamemode:
+    description: Vous permet de changer de mode de jeu
+    aliases:
+      - gm
+    usage: /gamemode [(<player>)] <[creative/adventure/survival/spectator]>
+  gma:
+    description: Vous permet de passer en gamemode aventure
+    usage: /gma [(<player)]
+  gmc:
+    description: Vous permet de passer en gamemode créatif
+    usage: /gmc [(<player)]
+  gms:
+    description: Vous permet de passer en gamemode survie
+    usage: /gms [(<player)]
+  gmsp:
+    description: Vous permet de passer en gamemode spectateur
+    usage: /gmsp [(<player)]
+  fly:
+    description: Vous permet de voler ou d'arrêter de voler
+    usage: /fly [(<player>)]
+  broadcast:
+    description: Vous permet de faire une annonce au serveur
+    aliases:
+      - br
+      - annonce
+      - announce
+    usage: /broadcast <message>
+  heal:
+    description: Vous permet de soigner et nourrir quelqu'un
+    usage: /heal [(<player>)]
+  feed:
+    description: Vous permet de nourrir quelqu'un
+    usage: /feed [(<player>)]
+  coolkill:
+    description: Vous permet de tuer quelqu'un avec classe
+    aliases:
+      - ck
+    usage: /coolkill <player>
+  coins:
+    description: Vous permet de gérer les coins d'un joueur.
+  level:
+    description: Vous permet de gérer les levels d'un joueur.
+  rank:
+    description: Vous permet de gérer le grade d'un joueur.
